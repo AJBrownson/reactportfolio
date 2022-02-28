@@ -95,14 +95,18 @@ border-bottom: 2px solid transparent;
 }
 `;
 
+
 export const NavLinks = styled(Link)`
-/* color: #000016; */
 display: flex;
 align-items: center;
 text-decoration: none;
 list-style: none;
 padding: 0.5rem 1rem;
 height: 100%;
+
+&:active {
+        color: blue;
+    }
 
 @media screen and (max-width: 991px) {
     text-align: center;
@@ -114,5 +118,6 @@ height: 100%;
         color: black;
         transition: all 0.3s ease;
     }
+
 }
 `;

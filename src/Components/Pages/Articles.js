@@ -1,5 +1,6 @@
 import React from 'react';
 import { Wrapper, Category, Subject, Date, Time, Word } from './Articles.elements';
+// import Form from '../Form/Form';
 
 const Articles = () => {
   return (
@@ -16,10 +17,12 @@ const Articles = () => {
       </Word> */}
 
       <Category>Inspiration</Category>
-      <Subject>Mindset</Subject>
-      <Date>Wednesday 9/02/2022</Date>
-      <Time>08:50 AM</Time>
+      <Subject></Subject>
+      {/* <Date>Wednesday 9/02/2022</Date>
+      <Time>08:50 AM</Time> */}
       <Word>The easiest way to predict the future is to create it</Word>
+
+      
       </Wrapper>
     </>
   )

@@ -42,7 +42,7 @@ const Navbar = () => {
                 </NavItem>
 
                 <NavItem>
-                  <NavLinks to ='/'>Contact</NavLinks>
+                  <NavLinks to ='/Contact'>Contact</NavLinks>
                 </NavItem>
                
                 </NavMenu>

@@ -7,6 +7,7 @@ import Articles from './Components/Pages/Articles';
 import Projects from './Components/Pages/Projects';
 import Workspace from './Components/Pages/Workspace';
 import About from './Components/Pages/About';
+import Contact from './Components/Pages/Contact';
 import NotFound from './Components/Pages/NotFound';
 import { Footer } from './Components';
 
@@ -24,6 +25,7 @@ render (
         <Route path='/projects' element={ <Projects /> } />
         <Route path='/workspace' element={ <Workspace /> } />
         <Route path='/about' element={ <About /> } />
+        <Route path='/contact' element={ <Contact /> } />
         <Route path='*' element={ <NotFound /> } />
         </Route>
     </Routes>
