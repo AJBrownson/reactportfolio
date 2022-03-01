@@ -5,4 +5,5 @@ display: flex;
 align-items: center;
 justify-content: center;
 font-size: larger;
+height: 100vh;
 `;
