@@ -38,7 +38,7 @@ export default function Form() {
 
   return (
     <>
-      <form onSubmit={formik.handleSubmit} method='post'>
+      <form onSubmit={formik.handleSubmit} method='post' name='contact' netlify>
         <div id='first'>
           <input id="firstName"
                  name='firstName'
